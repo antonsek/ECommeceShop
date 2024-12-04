@@ -4,14 +4,14 @@
     "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Domain/User.Domain.csproj": {}
   },
   "projects": {
-    "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/Shared.csproj": {
+    "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/Shared.csproj",
+        "projectPath": "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj",
         "packagesPath": "/Users/anton/.nuget/packages/",
-        "outputPath": "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/obj/",
+        "outputPath": "/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anton/.nuget/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/Shared.csproj": {
-                "projectPath": "/Users/anton/RiderProjects/ECommerceShop/services/user/Shared/Shared.csproj"
+              "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj": {
+                "projectPath": "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj"
               }
             }
           }

@@ -640,8 +640,8 @@
     },
     "Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/Shared.csproj",
-      "msbuildProject": "../Shared/Shared.csproj"
+      "path": "../../../common/Shared/Shared.csproj",
+      "msbuildProject": "../../../common/Shared/Shared.csproj"
     },
     "User.Domain/1.0.0": {
       "type": "project",
@@ -654,6 +654,7 @@
       "MediatR >= 12.4.1",
       "MediatR.Contracts >= 2.0.1",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
+      "Shared >= 1.0.0",
       "User.Domain >= 1.0.0"
     ]
   },
@@ -682,6 +683,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj": {
+              "projectPath": "/Users/anton/RiderProjects/ECommerceShop/common/Shared/Shared.csproj"
+            },
             "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Domain/User.Domain.csproj": {
               "projectPath": "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Domain/User.Domain.csproj"
             }
