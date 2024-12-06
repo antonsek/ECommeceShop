@@ -9,3 +9,15 @@
 /Users/anton/RiderProjects/ECommerceShop/Shared/obj/Debug/net8.0/refint/Shared.dll
 /Users/anton/RiderProjects/ECommerceShop/Shared/obj/Debug/net8.0/Shared.pdb
 /Users/anton/RiderProjects/ECommerceShop/Shared/obj/Debug/net8.0/ref/Shared.dll
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/bin/Debug/net8.0/Shared.deps.json
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/bin/Debug/net8.0/Shared.dll
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/bin/Debug/net8.0/Shared.pdb
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.AssemblyInfoInputs.cache
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.AssemblyInfo.cs
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.csproj.CoreCompileInputs.cache
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.sourcelink.json
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.dll
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/refint/Shared.dll
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/Shared.pdb
+/Users/anton/RiderProjects/ECommerceShop/common/Shared/obj/Debug/net8.0/ref/Shared.dll

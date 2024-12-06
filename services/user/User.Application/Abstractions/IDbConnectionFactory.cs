@@ -1,6 +1,8 @@
+using System.Data;
+
 namespace User.Application.Abstractions;
 
-public class IDbConnectionFactory
+public interface IDbConnectionFactory
 {
     IDbConnection Create();
 }

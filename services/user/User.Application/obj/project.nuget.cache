@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4lLcYcwBodA=",
+  "dgSpecHash": "9nMFjQZr8zA=",
   "success": true,
   "projectFilePath": "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Application/User.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/anton/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/Users/anton/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/anton/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/anton/.nuget/packages/microsoft.entityframeworkcore/8.0.11/microsoft.entityframeworkcore.8.0.11.nupkg.sha512",

@@ -28,6 +28,6 @@ public static class DependencyInjection
             options.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
         });
         
-        services.AddScoped<IDbConnectionFactory>(sp => sp.GetRequiredService<DbConnectionFactory>(connectionString));
+        services.AddScoped<IDbConnectionFactory>(sp => new DbConnectionFactory(connectionString));
     }
 }

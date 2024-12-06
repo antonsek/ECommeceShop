@@ -3,7 +3,7 @@ services:
   chat.api:
     build:
       context: "/Users/anton/RiderProjects/ECommerceShop"
-      dockerfile: "Chat.Application/Dockerfile"
+      dockerfile: "services/chat/Chat.Application/Dockerfile"
       target: "base"
     command: []
     entrypoint:
@@ -16,13 +16,13 @@ services:
     ports: []
     volumes:
     - "/Users/anton/.nuget/packages:/home/app/.nuget/packages"
-    - "/Users/anton/RiderProjects/ECommerceShop/Chat.Application:/app:rw"
+    - "/Users/anton/RiderProjects/ECommerceShop/services/chat/Chat.Application:/app:rw"
     - "/Users/anton/RiderProjects/ECommerceShop:/src:rw"
     working_dir: "/app"
   gateway:
     build:
       context: "/Users/anton/RiderProjects/ECommerceShop"
-      dockerfile: "Gateway/Dockerfile"
+      dockerfile: "gateway/Gateway/Dockerfile"
       target: "base"
     command: []
     entrypoint:
@@ -35,13 +35,13 @@ services:
     ports: []
     volumes:
     - "/Users/anton/.nuget/packages:/home/app/.nuget/packages"
-    - "/Users/anton/RiderProjects/ECommerceShop/Gateway:/app:rw"
+    - "/Users/anton/RiderProjects/ECommerceShop/gateway/Gateway:/app:rw"
     - "/Users/anton/RiderProjects/ECommerceShop:/src:rw"
     working_dir: "/app"
   userservice:
     build:
       context: "/Users/anton/RiderProjects/ECommerceShop"
-      dockerfile: "User.Api/Dockerfile"
+      dockerfile: "services/user/User.Api/Dockerfile"
       target: "base"
     command: []
     entrypoint:
@@ -54,6 +54,6 @@ services:
     ports: []
     volumes:
     - "/Users/anton/.nuget/packages:/home/app/.nuget/packages"
-    - "/Users/anton/RiderProjects/ECommerceShop/User.Api:/app:rw"
+    - "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Api:/app:rw"
     - "/Users/anton/RiderProjects/ECommerceShop:/src:rw"
     working_dir: "/app"
