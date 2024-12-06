@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m6SGWhzIU4k=",
+  "dgSpecHash": "h5qojyPTynI=",
   "success": true,
   "projectFilePath": "/Users/anton/RiderProjects/ECommerceShop/services/user/User.Api/User.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/anton/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/Users/anton/.nuget/packages/efcore.namingconventions/8.0.3/efcore.namingconventions.8.0.3.nupkg.sha512",
     "/Users/anton/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/anton/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
