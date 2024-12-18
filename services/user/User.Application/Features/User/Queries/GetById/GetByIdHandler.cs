@@ -3,12 +3,13 @@ using Shared;
 using Shared.Result;
 using User.Application.Abstractions;
 using User.Application.Abstractions.Messaging;
+using User.Application.Features.User.Queries.Get;
 
 namespace User.Application.Features.User.Queries.GetById;
 
-internal sealed class GetByIdHandler(IDbConnectionFactory connectionFactory) : IQueryHandler<GetByIdQuery, Domain.Entities.User>
+internal sealed class GetByIdHandler(IDbConnectionFactory connectionFactory) : IQueryHandler<GetByIdQuery, UserResponce>
 {
-    public async Task<Result<Domain.Entities.User>> Handle(GetByIdQuery request,
+    public async Task<Result<UserResponce>> Handle(GetByIdQuery request,
         CancellationToken cancellationToken)
     {
         using var connection = connectionFactory.Create();
@@ -24,10 +25,10 @@ internal sealed class GetByIdHandler(IDbConnectionFactory connectionFactory) : I
             FROM Users WHERE id=@id
             """;
         
-        var user = await connection.QuerySingleOrDefaultAsync<Domain.Entities.User>(sql, new { request.id });
+        var user = await connection.QuerySingleOrDefaultAsync<UserResponce>(sql, new { request.id });
         
         if (user == null)
-            return Result.Failure<Domain.Entities.User>(Error.NotFound("User", "User not found"));
+            return Result.Failure<UserResponce>(Error.NotFound("User", "User not found"));
         
         return user;
     }

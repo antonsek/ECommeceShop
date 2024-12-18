@@ -1,5 +1,6 @@
 using MediatR;
 using Shared.Result;
+using User.Application.Features.User.Queries.Get;
 using User.Application.Features.User.Queries.GetById;
 using User.Infrastructure.Helpers;
 using UserService.Abstractions;
@@ -20,7 +21,7 @@ internal sealed class GetUserId : IEndpoint
     {
         var query = new GetByIdQuery(id);
 
-        Result<User.Domain.Entities.User> result = await sender.Send(query, ct);
+        Result<UserResponce> result = await sender.Send(query, ct);
 
         return result.Match(Results.Ok, ApiResults.Problem);
     }

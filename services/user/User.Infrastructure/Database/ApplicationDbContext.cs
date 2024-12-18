@@ -12,4 +12,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
     }
+    
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default) =>
+        await base.SaveChangesAsync(cancellationToken);
 }

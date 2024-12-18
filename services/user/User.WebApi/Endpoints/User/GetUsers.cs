@@ -21,7 +21,7 @@ internal sealed class GetUsers : IEndpoint
     {
         var query = new GetUsersQuery();
         
-        Result<List<User.Domain.Entities.User>> users = await sender.Send(query, ct);
+        Result<List<UserResponce>> users = await sender.Send(query, ct);
         
         return Results.Ok(users);
     }

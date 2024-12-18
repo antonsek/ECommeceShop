@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chat", "chat", "{7328BD76-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Application", "services\chat\Chat.Application\Chat.Application.csproj", "{E4E83020-2D4E-4DA2-9FD8-28ECEEBB2070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Api", "services\user\User.Api\User.Api.csproj", "{4D605291-92EC-4CB8-AE86-F9858F0DE89D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.WebApi", "services\user\User.WebApi\User.WebApi.csproj", "{4D605291-92EC-4CB8-AE86-F9858F0DE89D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Application", "services\user\User.Application\User.Application.csproj", "{CE09B50A-F529-45D6-A512-A8E573262072}"
 EndProject
