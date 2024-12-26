@@ -1,3 +1,4 @@
+using Domain.Users.Errors;
 using Microsoft.EntityFrameworkCore;
 using Shared.Result;
 using User.Application.Abstractions;
@@ -11,7 +12,11 @@ internal sealed class UpdateUserHandler(IApplicationDbContext dbContext) : IComm
         CancellationToken cancellationToken)
     {
         var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == request.Id);
-            
+
+        if (user == null)
+        {
+            return Result.Failure(UserErrors.NotFound);
+        }
         user.Update(
             firstName: request.FirstName,
             lastName: request.LastName,

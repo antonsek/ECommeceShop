@@ -1,4 +1,5 @@
 using Dapper;
+using Domain.Users.Errors;
 using Shared;
 using Shared.Result;
 using User.Application.Abstractions;
@@ -28,7 +29,7 @@ internal sealed class GetByIdHandler(IDbConnectionFactory connectionFactory) : I
         var user = await connection.QuerySingleOrDefaultAsync<UserResponce>(sql, new { request.id });
         
         if (user == null)
-            return Result.Failure<UserResponce>(Error.NotFound("User", "User not found"));
+            return Result.Failure<UserResponce>(UserErrors.NotFound);
         
         return user;
     }
