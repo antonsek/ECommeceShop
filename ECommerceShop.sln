@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Api", "services\mes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{314B7509-6825-4AB8-9799-416790AF8ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBomberTests", "tests\NBomberTests\NBomberTests.csproj", "{195ECAF9-8D40-429B-B6DC-47C045935987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Tests", "tests\ECommerce.Tests\ECommerce.Tests.csproj", "{195ECAF9-8D40-429B-B6DC-47C045935987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
