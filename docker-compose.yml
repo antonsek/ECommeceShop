@@ -36,7 +36,16 @@
     container_name: chat.api
     build:
       context: .
-      dockerfile: services/chat/Chat.Application/Dockerfile
+      dockerfile: services/chat/Chat.Api/Dockerfile
     ports:
       - "7002:8080"
       - "7003:8081"
+        
+  message.api:
+    image: message.api
+    container_name: message.api
+    build:
+      context: .
+      dockerfile: services/message/Message.Api/Dockerfile
+    ports:
+      - "8002:8080"
