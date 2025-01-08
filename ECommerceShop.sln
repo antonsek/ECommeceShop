@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{314B7509
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Tests", "tests\ECommerce.Tests\ECommerce.Tests.csproj", "{195ECAF9-8D40-429B-B6DC-47C045935987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Domain", "services\message\Message.Domain\Message.Domain.csproj", "{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,7 @@ Global
 		{F7E4EE8A-FD60-4CD6-92AA-C787DF2237E7} = {9710761B-55ED-4818-BA64-6DC1ED10E5F3}
 		{2C2A5635-3F24-49A1-86BD-5D756B7BB685} = {F7E4EE8A-FD60-4CD6-92AA-C787DF2237E7}
 		{195ECAF9-8D40-429B-B6DC-47C045935987} = {314B7509-6825-4AB8-9799-416790AF8ED0}
+		{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326} = {F7E4EE8A-FD60-4CD6-92AA-C787DF2237E7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E4E83020-2D4E-4DA2-9FD8-28ECEEBB2070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -93,5 +96,9 @@ Global
 		{195ECAF9-8D40-429B-B6DC-47C045935987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195ECAF9-8D40-429B-B6DC-47C045935987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195ECAF9-8D40-429B-B6DC-47C045935987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4C7F4A-28FF-4D33-9E2E-B6F3EFE54326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
